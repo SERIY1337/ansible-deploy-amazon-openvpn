@@ -120,7 +120,7 @@ If you changed vpc cidr, then you should understand that you will have to make m
 > - By default remote subnet is 172.16.0.0/16 and local is 10.50.0.0/23. Change remote subnet to your local subnet in your network and local subnet if you changed this in '*VPC, subnet and firewall rules*' article
 > - After that you should change ipsec PSK and local ip address (if you changed) in the following configuration files
 >   - [openvpn-proxy01.ipsec.secrets](./roles/configure-proxy-instances/templates/openvpn-proxy01.ipsec.secrets)
->   - [openvpn-proxy02.ipsec.secrets](/roles/configure-proxy-instances/templates/openvpn-proxy02.ipsec.secrets)
+>   - [openvpn-proxy02.ipsec.secrets](./roles/configure-proxy-instances/templates/openvpn-proxy02.ipsec.secrets)
 
 > Keepalived
 > - You shoud create IAM keys (permissions to assign private ip to instances) and add generated keys in the following configuration files
@@ -135,6 +135,7 @@ If you changed vpc cidr, then you should understand that you will have to make m
 >   - [openvpn-proxy02.backup.sh](./roles/configure-proxy-instances/templates/openvpn-proxy02.backup.sh)
 >   - [openvpn-proxy01.keepalived.conf](./roles/configure-proxy-instances/templates/openvpn-proxy01.keepalived.conf)
 >   - [openvpn-proxy02.keepalived.conf](./roles/configure-proxy-instances/templates/openvpn-proxy02.keepalived.conf)
+
 ```sh
 cd /etc/ansible
 ansible-playbook playbooks/prepare-amazon-environment.yml
