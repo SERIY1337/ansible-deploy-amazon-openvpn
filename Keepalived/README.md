@@ -1,4 +1,4 @@
-# Keepalived configuration for 2 proxies
+# Keepalived configuration for two proxy instances
 
 This is a simple keepalived configuration beetween 2 proxy instances. To do this on AWS ec2 was enough problematically, but i done it:blush:   
 The essence of the problem is that ip broadcast and multicast does not work on AWS ec2 and the crutch hint which I found somewhere on the Internet is to use ec2-api-tools. I took the example of a stranger and used it as a lever for reassign virtual ip-address when one of my proxy is down. And its working. Thanks, stranger:thumbsup:
