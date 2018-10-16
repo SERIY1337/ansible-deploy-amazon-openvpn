@@ -4,13 +4,14 @@ Hi, this is an educational project, but this does not mean that it is not a work
 
 ## Purpose of this project
 
-The purpose of this project is to ensure the access of branches offices of the company from Europe to the local network of the head office. Since the company's resources were limited, it was decided to place an access point in Amazon hosting provider.
+The purpose of this project is to provide access for employees from a remote branch office of a company  to the local network of the head office company. Since the company's resources were limited, it was decided to place an access point in Amazon hosting provider.
 
 ## Simple scheme how it works
 
-![](https://i.imgur.com/nEQRypK.png)
+![](https://i.imgur.com/zTsh9g4.png)
  
 ## Installation
+
 - For full installation go to [Ansible](./Ansible)
 - For using only docker openvpn service go to [Docker](./Docker)
 - For using only keepalived configuration go to [Keepalived](./Keepalived)
