@@ -6,7 +6,7 @@ Hi, this is an educational project, but this does not mean that it is not a work
 
 The purpose of this project is to ensure the access of branches offices of the company from Europe to the local network of the head office. Since the company's resources were limited, it was decided to place an access point in Amazon hosting provider.
 
-## Simple scheme how it used
+## Simple scheme how it works
 
 ![](https://i.imgur.com/nEQRypK.png)
  
